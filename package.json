@@ -1,0 +1,19 @@
+{
+  "name": "gameshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.5",
+    "font-awesome": "^4.4.0",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "jquery": "^2.1.4",
+    "less": "^2.5.1"
+  },
+  "author": "Tarasenko Denis",
+  "license": "ISC"
+}

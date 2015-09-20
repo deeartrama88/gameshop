@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Game Shop</title>
+	
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<!-- FONT-AWESOME CSS -->
+	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+	<!-- MY STYLES CSS -->
+	<link rel="stylesheet" href="css/my_styles.css">
+
+</head>
+<body>
+	
+	<!-- HEADER -->
+	<header>
+		<!-- HEADER TOP LINE MENU -->
+		<div class="top_line_menu_wrapper">
+			<div class="container">
+				<div class="top_line_menu">
+
+					<ul>
+						<li><a href="#">Избранные</a></li>
+						<li><a href="#">Лидеры продаж</a></li>
+						<li><a href="#">Производители</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+
+					<!-- header top line my menu button link -->
+					<div class="top_line_menu_my_info">
+						<a href="#"><i class="fa fa-user"></i>Мои данные</a>
+					</div>
+
+					<!-- header top line currencies dropdawn -->
+					<div class="top_line_menu_currencies">
+						<span>Валюты</span>
+						<select name="top_line_currencies">
+							<option value="dollar">U.S.Dollar</option>
+							<option value="euro">Euro</option>
+							<option value="ru">Ru</option>
+						</select>
+					</div>
+
+					<!-- header top line languages change dropdawn -->
+					<div class="top_line_menu_languages">
+						<span>Языки</span>
+						<select name="top_line_currencies dropdawn">
+							<option value="russian">Russian</option>
+							<option value="english">English</option>
+							<option value="german">Germany</option>
+						</select>
+					</div>
+
+					<!-- header top line shopping cart block -->
+					<div class="top_line_menu_shopping_cart">
+						<i class="fa fa-shopping-cart"></i>
+						<span class="top_line_menu_shopping_text">корзина</span>
+						<span class="top_line_menu_shopping_price">0 товаров - $0.00</span>
+						<i class="fa fa-arrow-down"></i>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- HEADER MAIN MENU -->
+		<div class="container">
+			<div class="header_main_menu">
+
+				<!-- header logo -->
+				<div class="header_logo">
+					<a href="#">
+						<img src="images/header/store_logo.png" alt="store_logo">
+					</a>
+				</div>
+
+				<!-- header search input -->
+				<div class="header_search_input">
+					<form>						
+						<input type="text" id="header_search">
+						<button id="header_search_btn">
+							<i class="fa fa-search"></i>
+						</button> 
+					</form>
+				</div>
+
+				<!-- header main menu -->
+				<div class="header_main_menu">
+					<ul>
+						<li class="menu_first_line"><a href="#">ACCESSORIES</a></li>
+						<li class="menu_first_line"><a href="#">GAMES</a>
+							<i class="fa fa-angle-down"></i>
+						</li>
+						<li class="menu_first_line"><a href="#">GADGETS</a></li>
+						<li class="menu_first_line"><a href="#">HARDWARE</a></li>
+					</ul>
+					<div class="menu_game_list">
+						<ul>
+							<h3>Game Category</h3>
+							<li><a href="#">sub menu</a></li>
+							<li><a href="#">sub menu</a></li>
+							<li><a href="#">sub menu</a></li>
+							<li><a href="#">sub menu</a></li>
+						</ul>
+						<ul>
+							<h3>Game Category</h3>
+							<li><a href="#">sub menu</a></li>
+							<li><a href="#">sub menu</a></li>
+							<li><a href="#">sub menu</a></li>
+							<li><a href="#">sub menu</a></li>
+						</ul>
+						<ul>
+							<h3>Game Category</h3>
+							<li><a href="#">sub menu</a></li>
+							<li><a href="#">sub menu</a></li>
+							<li><a href="#">sub menu</a></li>
+							<li><a href="#">sub menu</a></li>
+						</ul>
+						<ul>
+							<h3>Game Category</h3>
+							<li><a href="#">sub menu</a></li>
+							<li><a href="#">sub menu</a></li>
+							<li><a href="#">sub menu</a></li>
+							<li><a href="#">sub menu</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</header>
+
+  
+
+
+
+
+
+
+	<!-- JQUERY JS -->
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<!-- BOOTSTRAP JS -->
+	<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+	<!-- LESS JS -->
+	<script src="node_modules/less/dist/less.js"></script>
+	<!-- MY JS -->
+	<script src="js/my_js.js"></script>
+</body>
+</html>
