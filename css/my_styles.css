@@ -195,3 +195,26 @@ a:hover {
 .header_main_menu .menu_game_list ul li {
   padding: 5px 0;
 }
+/********************************************************************************************************************************************/
+/********************************************************** MAIN SLIDER BLOCK STYLES ****************************************************/
+/********************************************************************************************************************************************/
+.main_slider_section .slider_wrapper {
+  padding: 30px;
+  padding-top: 50px;
+}
+.main_slider_section .slider_wrapper .slider_image {
+  float: left;
+  margin-right: 25px;
+  position: relative;
+  width: 650px;
+}
+.main_slider_section .slider_wrapper .slider_image img {
+  width: 100%;
+  float: left;
+}
+.main_slider_section .slider_wrapper a {
+  margin-bottom: 5px;
+}
+.main_slider_section .slider_wrapper a img {
+  margin-bottom: 5px;
+}
