@@ -45,6 +45,23 @@ $(document).ready(function(){
 $('.main_slider img').css('width', '100%');
 
 
+// OWL CAROUSEL INIT 
+ $(".owl-carousel").owlCarousel({
+ 	items: 1,
+ 	loop: true,
+ 	nav: true,
+ 	navText: ["<i class='fa fa-angle-right'></i>", "<i class='fa fa-angle-left'></i>"],
+ 	animateOut: 'fadeOut'
+ });
+ // CAROUSEL CAPTION ANIMATE
+$('.owl-prev').click(function(){
+	$('.owl_caption').slideUp(200).delay(200).slideDown(200);
+});
+$('.owl-next').click(function(){
+	$('.owl_caption').slideUp(200).delay(200).slideDown(200);
+});
+
+
 
 
 

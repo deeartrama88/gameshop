@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
 	<!-- MY STYLES CSS -->
 	<link rel="stylesheet" href="css/my_styles.css">
+	<!-- OWL CAROUSEL CSS -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
 
 </head>
 <body>
@@ -26,6 +28,7 @@
 						<li><a href="#">Лидеры продаж</a></li>
 						<li><a href="#">Производители</a></li>
 						<li><a href="#">Контакты</a></li>
+						<li></li>
 					</ul>
 
 					<!-- header top line my menu button link -->
@@ -36,11 +39,13 @@
 					<!-- header top line currencies dropdawn -->
 					<div class="top_line_menu_currencies">
 						<span>Валюты</span>
-						<select name="top_line_currencies">
-							<option value="dollar">U.S.Dollar</option>
-							<option value="euro">Euro</option>
-							<option value="ru">Ru</option>
-						</select>
+						<form action="" name="currecies">
+							<select name="top_line_currencies">
+								<option value="dollar">U.S.Dollar</option>
+								<option value="euro">Euro</option>
+								<option value="ru">Ru</option>
+							</select>
+						</form>
 					</div>
 
 					<!-- header top line languages change dropdawn -->
@@ -135,20 +140,110 @@
 	<section class="main_slider_section">
 		<div class="container">
 			<div class="slider_wrapper">
+				<!-- slider -->
 				<div class="slider_image">
-					<img src="http://placehold.it/600x400/FFF" alt="">
+					<div class="owl-carousel">
+					    <div>
+					    	<img src="images/slider/slide-1.jpg" alt="">
+					    	<p class="owl_caption">
+					    		<span class="owl_caption_name">Game title, name</span>
+								<span class="owl_caption_price">$199.00</span>
+								<span class="owl_caption_btn">buy now</span>
+					    	</p>
+					    </div>
+					    <div>
+					    	<img src="images/slider/slide-3.jpg" alt="">
+					    	<p class="owl_caption">
+					    		<span class="owl_caption_name">Game title, name</span>
+								<span class="owl_caption_price">$199.00</span>
+								<span class="owl_caption_btn">buy now</span>
+					    	</p>
+					    </div>
+					</div>
 				</div>
+				<!-- button below slider, sony 4 , x-box 1, x-box 360 -->
 				<a href="#"><img src="images/main/image-1.jpg" alt="images"></a>
 				<a href="#"><img src="images/main/image-2.jpg" alt="images"></a>
 				<a href="#"><img src="images/main/image-3.jpg" alt="images"></a>
+				<!-- buttons under slider -->
+				<div class="button_under_slider">
+					<a href="#"><div class="under_slider_btn"><i class="fa fa-comments-o"></i>Order online</div></a>
+					<a href="#"><div class="under_slider_btn"><i class="fa fa-truck"></i>Free Shipping</div></a>
+					<a href="#"><div class="under_slider_btn"><i class="fa fa-star"></i>	Sale</div></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- RECOMENDED PRODUCTS -->
+	<section class="main_page_recomended_products">
+		<div class="container">
+			<div class="main_recomended_list">
+			<h3>РЕКОМЕНДУЕМЫЕ ПРОДУКТЫ</h3>
+
+				<div class="main_recomended_each">
+					<div class="main_recomended_each_image">
+						<div class="main_recomended_each_image_wrapper">
+							<img src="images/games_images/1.png" alt="">
+						</div>
+					</div>
+					<div class="main_recomended_description">
+						<span class="prise">$35</span>
+						<span class="name">Mass Effect</span>
+						<span class="short_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi fugiat, nam numquam totam delectus eaque.</span>
+						<span class="to_cart_button"><i class="fa fa-shopping-cart"></i>В КОРЗИНУ</span>
+					</div>
+				</div>
+		
+				<div class="main_recomended_each">
+					<div class="main_recomended_each_image">
+						<div class="main_recomended_each_image_wrapper">
+							<img src="images/games_images/2.png" alt="">
+						</div>
+					</div>
+					<div class="main_recomended_description">
+						<span class="prise">$35</span>
+						<span class="name">Mass Effect</span>
+						<span class="short_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi fugiat, nam numquam totam delectus eaque.</span>
+						<span class="to_cart_button"><i class="fa fa-shopping-cart"></i>В КОРЗИНУ</span>
+					</div>
+				</div>
 				
+				<div class="main_recomended_each">
+					<div class="main_recomended_each_image">
+						<div class="main_recomended_each_image_wrapper">
+							<img src="images/games_images/3.png" alt="">
+						</div>
+					</div>
+					<div class="main_recomended_description">
+						<span class="prise">$35</span>
+						<span class="name">Mass Effect</span>
+						<span class="short_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi fugiat, nam numquam totam delectus eaque.</span>
+						<span class="to_cart_button"><i class="fa fa-shopping-cart"></i>В КОРЗИНУ</span>
+					</div>
+				</div>
+				
+				<div class="main_recomended_each">
+					<div class="main_recomended_each_image">
+						<div class="main_recomended_each_image_wrapper">
+							<img src="images/games_images/4.png" alt="">
+						</div>
+					</div>
+					<div class="main_recomended_description">
+						<span class="prise">$35</span>
+						<span class="name">Mass Effect</span>
+						<span class="short_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi fugiat, nam numquam totam delectus eaque.</span>
+						<span class="to_cart_button"><i class="fa fa-shopping-cart"></i>В КОРЗИНУ</span>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>
 
 
 
-
+ 
 
 	<!-- JQUERY JS -->
 	<script src="node_modules/jquery/dist/jquery.js"></script>
@@ -158,5 +253,7 @@
 	<script src="node_modules/less/dist/less.js"></script>
 	<!-- MY JS -->
 	<script src="js/my_js.js"></script>
+	<!-- OWL CAROUSEL JS -->
+	<script src="js/owl.carousel.js"></script>
 </body>
 </html>
